@@ -1,0 +1,53 @@
+
+*{
+    font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
+}
+.App{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.quotesBox{
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+    margin: center;
+    border-radius: 8px;
+    background: #fff;
+    
+}
+.button{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20%;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.quotesBox ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+.quotesBox ul li {
+    margin-bottom: 10px;
+}
+.quotesBox button {
+    font-size: 18 px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+ul{
+    font-size: 21px;
+}
+ul li {
+    list-style: none;
+    text-align: left;
+}
